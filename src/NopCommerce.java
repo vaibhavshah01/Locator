@@ -34,6 +34,7 @@ public class NopCommerce {
         driver.findElement(By.xpath("//textarea[@id='PersonalMessage']")).sendKeys("pls check a deal");
         //click on send email button
         driver.findElement(By.xpath("//input[@value=\"Send email\"]")).click();
+        //driver.close
 
 
     }
